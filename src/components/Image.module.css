@@ -1,0 +1,7 @@
+.image {
+  min-height: 504px;
+  background-image: url(/src/asset/Background\ image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

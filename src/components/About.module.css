@@ -1,0 +1,25 @@
+.about {
+  background-color: white;
+  padding: 132px 0;
+}
+
+.about > div {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 3rem;
+}
+
+.about :global(.highlighted) {
+  background-color: rgba(232, 232, 232, 0.5);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex: 60%;
+  flex-grow: 1;
+}
+.content {
+  flex-basis: 30%;
+  flex-grow: 1;
+}
