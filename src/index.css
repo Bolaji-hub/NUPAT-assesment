@@ -1,24 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@500&family=Rubik:wght@400;500;600;700&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Krub", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* reset */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+button {
+  font-family: inherit;
 }
 
 img {
   max-width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+ul {
+  padding-left: 0;
+}
+/*  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 3.7rem;
+}
+
+button {
+  min-height: 60px;
+  padding: 19px 48px;
+
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
+
+button.dot {
+  position: relative;
+  overflow: hidden;
+}
+button.dot::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 105px;
+  border-radius: 40%;
+  background: #ffffff;
+  transform: translate(5%, 5%) rotate(23.72deg);
+}
+
+.highlighted {
+  position: relative;
+  padding: 3px 9px;
+  padding-left: 12px;
+  background: rgba(4, 28, 55, 0.5);
+  font-size: 14px;
+}
+.highlighted::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
 }
 
 .container {

@@ -9,7 +9,7 @@
   padding: 1.5rem 0;
 }
 
-ul {
+.topNav ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -17,12 +17,13 @@ ul {
   gap: 2.4rem;
 }
 
-ul li {
+.topNav ul li {
   display: flex;
   align-items: center;
   gap: 1rem;
+  line-height: 135.02%;
 }
 
-li.logo {
+.topNav li.logo {
   margin-right: auto;
 }

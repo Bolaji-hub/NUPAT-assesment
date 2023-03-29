@@ -1,0 +1,48 @@
+.header {
+  min-height: calc(100vh - 160px);
+  background-image: url(/src/asset/header-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
+
+.main {
+  padding-top: 176px;
+  padding-bottom: 176px;
+}
+
+.main > * {
+  max-width: 34rem;
+}
+
+.nav {
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+
+  background: rgba(9, 18, 66, 0.25);
+}
+
+.nav ul.localLinks {
+  margin-right: auto;
+  gap: 2rem;
+}
+
+.nav :global(.container) {
+  display: flex;
+}
+
+.nav ul {
+  display: flex;
+}
+.nav ul.socialLinks {
+  gap: 2rem;
+  margin-right: auto;
+}
+
+.nav ul.word {
+  color: black;
+  background-color: white;
+}
