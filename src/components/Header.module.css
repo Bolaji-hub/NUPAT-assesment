@@ -45,4 +45,7 @@
 .nav ul.word {
   color: black;
   background-color: white;
+  padding: 8px 12px;
+  min-height: 78px;
+  gap: 10;
 }
