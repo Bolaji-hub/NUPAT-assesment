@@ -27,7 +27,12 @@
 
 .nav ul.localLinks {
   margin-right: auto;
-  gap: 2rem;
+  gap: 1.2rem;
+}
+
+.nav ul.localLinks li:not(:last-child) {
+  padding-right: 1.2rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .nav :global(.container) {
@@ -36,16 +41,17 @@
 
 .nav ul {
   display: flex;
+  align-items: center;
 }
 .nav ul.socialLinks {
   gap: 2rem;
   margin-right: auto;
 }
 
-.nav ul.word {
+.nav button {
+  all: unset;
   color: black;
   background-color: white;
-  padding: 8px 12px;
+  padding: 8px 52px;
   min-height: 78px;
-  gap: 10;
 }

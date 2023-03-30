@@ -1,0 +1,73 @@
+.why :global(.highlighted) {
+  background-color: rgba(232, 232, 232, 0.5);
+}
+
+.why {
+  display: flex;
+}
+.overlay {
+  background-color: #091242;
+  display: flex;
+  align-items: center;
+}
+.overlay img {
+  position: relative;
+  right: -12%;
+}
+
+.choose {
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 8%;
+  align-items: center;
+}
+
+.choose h2 {
+  color: #1c1f35;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.highlighted {
+  color: #1c1f35;
+}
+
+.choose p {
+  color: #666c89;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: 400;
+  font-size: 20px;
+  gap: 2rem;
+}
+.grid > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box img {
+  border-radius: 50px;
+  width: 53px;
+  min-height: 53px;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
+
+.globe img {
+  border-radius: 50px;
+  width: 53px;
+  min-height: 53px;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}

@@ -5,6 +5,7 @@ import About from "./components/About";
 import Image from "./components/Image";
 import Whyus from "./components/Whyus";
 import Testimonial from "./components/Testimonial";
+import Whychoose from "./components/Whychoose";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Image />
       <Whyus />
       <Testimonial />
+      <Whychoose />
     </div>
   );
 }

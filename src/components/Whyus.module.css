@@ -57,11 +57,6 @@
   background: #1f2a69;
 }
 
-img {
-  display: flex;
-  align-items: center;
-}
-
 /* .container p {
   position: relative;
   color: #666c89;
@@ -72,6 +67,13 @@ img {
   font-size: 75px;
   color: #1c1f35;
 } */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin: 1rem 0;
+}
 .logo span {
   color: #1c1f35;
   font-weight: 200px;
@@ -85,6 +87,8 @@ img {
   padding: 30px;
   gap: 30px;
   margin-top: 20px;
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
 }
 .summary h2 {
   font-weight: 600px;

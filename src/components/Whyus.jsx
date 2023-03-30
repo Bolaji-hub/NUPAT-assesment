@@ -32,7 +32,8 @@ export default function Whyus() {
               <div className={style.logo}>
                 <img src={delivery} alt="icon" />
                 <span>Delivery On Time</span>
-
+              </div>
+              <div className={style.logo}>
                 <img src={cost} alt="icon" />
                 <span>Optimized Travel Cost</span>
               </div>

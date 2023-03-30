@@ -31,9 +31,7 @@ export default function Header() {
               <img src={Linkdin} alt="Linkdin" />
             </li>
           </ul>
-          <ul className={style.word}>
-            <li>Request Quote</li>
-          </ul>
+          <button>Request Quote</button>
         </div>
       </nav>
       <div className={`container ${style.main}`}>
