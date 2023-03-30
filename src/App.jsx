@@ -6,6 +6,7 @@ import Image from "./components/Image";
 import Whyus from "./components/Whyus";
 import Testimonial from "./components/Testimonial";
 import Whychoose from "./components/Whychoose";
+import Transporter from "./components/Transporter";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Whyus />
       <Testimonial />
       <Whychoose />
+      <Transporter />
     </div>
   );
 }
