@@ -1,6 +1,14 @@
-<svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M23 18.537V7.46301C22.9991 7.30305 22.9552 7.14614 22.8728 7.00811C22.7903 6.87008 22.6721 6.75581 22.5302 6.67682L12.4469 1.11737C12.311 1.04048 12.1569 1 12 1C11.8431 1 11.689 1.04048 11.5531 1.11737L1.46979 6.67682C1.32788 6.75581 1.20973 6.87008 1.12725 7.00811C1.04477 7.14614 1.00088 7.30305 1 7.46301V18.537C1.00088 18.697 1.04477 18.8539 1.12725 18.9919C1.20973 19.1299 1.32788 19.2442 1.46979 19.3232L11.5531 24.8826C11.689 24.9595 11.8431 25 12 25C12.1569 25 12.311 24.9595 12.4469 24.8826L22.5302 19.3232C22.6721 19.2442 22.7903 19.1299 22.8728 18.9919C22.9552 18.8539 22.9991 18.697 23 18.537V18.537Z" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 16V10.0853L7 4" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 7L12.1043 13L1 7" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 13V25" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="31.5" cy="31.5" r="31.5" fill="url(#paint0_linear_1_4228)"/>
+<path d="M43 36.537V25.463C42.9991 25.303 42.9552 25.1461 42.8728 25.0081C42.7903 24.8701 42.6721 24.7558 42.5302 24.6768L32.4469 19.1174C32.311 19.0405 32.1569 19 32 19C31.8431 19 31.689 19.0405 31.5531 19.1174L21.4698 24.6768C21.3279 24.7558 21.2097 24.8701 21.1272 25.0081C21.0448 25.1461 21.0009 25.303 21 25.463V36.537C21.0009 36.697 21.0448 36.8539 21.1272 36.9919C21.2097 37.1299 21.3279 37.2442 21.4698 37.3232L31.5531 42.8826C31.689 42.9595 31.8431 43 32 43C32.1569 43 32.311 42.9595 32.4469 42.8826L42.5302 37.3232C42.6721 37.2442 42.7903 37.1299 42.8728 36.9919C42.9552 36.8539 42.9991 36.697 43 36.537V36.537Z" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38 34V28.0853L27 22" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M43 25L32.1043 31L21 25" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 31V43" stroke="#1C1F35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_1_4228" x1="-1.78608" y1="13.65" x2="77.4684" y2="19.2782" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFB629"/>
+<stop offset="0.507189" stop-color="#FFDA56"/>
+<stop offset="1" stop-color="#FFD7A6"/>
+</linearGradient>
+</defs>
 </svg>

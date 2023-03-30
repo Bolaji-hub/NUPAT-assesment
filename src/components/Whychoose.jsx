@@ -24,7 +24,7 @@ export default function Whychoose() {
           proposition.
         </p>
         <div className={style.grid}>
-          <div className={style.box}>
+          <div>
             <img src={box} alt="" />
             <span>Safe Packing</span>
           </div>
@@ -32,7 +32,7 @@ export default function Whychoose() {
             <img src={clock} alt="" />
             <span>In Time Delivery</span>
           </div>
-          <div className={style.globe}>
+          <div>
             <img src={globe} alt="" />
             <span>Global Tracking</span>
           </div>
