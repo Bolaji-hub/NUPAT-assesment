@@ -6,7 +6,6 @@ import cost from "../asset/cost.svg";
 import photo from "../asset/Photo.jpg";
 import packing from "../asset/Packing.jpg";
 import contract from "../asset/contract.jpg";
-import warehouse from "../asset/warehouse.jpg";
 import trailer from "../asset/trailer.jpg";
 import ocean from "../asset/ocean.jpg";
 export default function Whyus() {

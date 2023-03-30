@@ -4,7 +4,6 @@ import Aerrow from "../asset/Aerrow.svg";
 import user1 from "../asset/user 1.png";
 import user2 from "../asset/user2.png";
 import quote from "../asset/quote.svg";
-import que from "../asset/que.svg";
 import star1 from "../asset/Star1.svg";
 
 export default function Testimonial() {
