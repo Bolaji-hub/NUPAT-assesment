@@ -1,0 +1,78 @@
+.testimony :global(.highlighted) {
+  background-color: rgba(232, 232, 232, 0.5);
+}
+
+.testimony {
+  display: flex;
+  min-height: 900px;
+  margin-bottom: 100px;
+}
+
+.say {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.testimony h2 {
+  color: #091242;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.users h5 {
+  font-weight: 600;
+  font-size: ;
+}
+
+.testimony img {
+  display: flex-end;
+}
+
+.card {
+  background-color: #f4f4f4;
+  min-height: 425px;
+  color: #666c89;
+  padding: 62px 72px;
+}
+
+.card:nth-child(even) {
+  background-color: #091242;
+  color: white;
+}
+
+.users {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile img {
+  border-radius: 50px;
+}
+
+.card .quote {
+  width: 72.85px;
+  height: 72.85px;
+  border-radius: 50px;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+
+  display: grid;
+  place-content: center;
+  margin-left: auto;
+}
+
+.stars {
+  display: flex;
+  gap: 8px;
+}

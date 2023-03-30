@@ -4,6 +4,7 @@ import TopNav from "./components/TopNav";
 import About from "./components/About";
 import Image from "./components/Image";
 import Whyus from "./components/Whyus";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Image />
       <Whyus />
+      <Testimonial />
     </div>
   );
 }
