@@ -14,21 +14,21 @@ export default function Transporter() {
         </div>
         <div className={style.list}>
           <figure>
-            <img src={pilot} alt="photo" />
+            <img src={pilot} alt="Arrow" />
             <figcaption>
               <h4>Jessica Arrow</h4>
               <p>Designer</p>
             </figcaption>
           </figure>
           <figure>
-            <img src={trans} alt="photo" />
+            <img src={trans} alt="Smith" />
             <figcaption>
               <h4>Kathleen Smith</h4>
               <p>Designer</p>
             </figcaption>
           </figure>
           <figure>
-            <img src={driver} alt="photo" />
+            <img src={driver} alt="Tylor" />
             <figcaption>
               <h4>Rebecca Tylor</h4>
               <p>Designer</p>
