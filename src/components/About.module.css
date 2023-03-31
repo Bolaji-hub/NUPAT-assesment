@@ -7,7 +7,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .about span {
@@ -25,9 +25,13 @@
 }
 .grid {
   display: grid;
+  color: #666c89;
   grid-template-columns: 1fr 1fr;
   flex: 60%;
   flex-grow: 1;
+}
+.grid h4 {
+  color: #1c1f35;
 }
 .content {
   flex-basis: 30%;
