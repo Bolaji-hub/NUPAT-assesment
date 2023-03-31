@@ -67,6 +67,19 @@
   font-size: 75px;
   color: #1c1f35;
 } */
+
+.whyus h2 {
+  font-weight: 500;
+  color: #1c1f35;
+  font-size: 40px;
+}
+
+.whyus p {
+  color: #666c89;
+}
+.whyus span {
+  color: #1c1f35;
+}
 .logo {
   display: flex;
   align-items: center;

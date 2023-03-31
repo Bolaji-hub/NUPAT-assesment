@@ -7,6 +7,7 @@ import Whyus from "./components/Whyus";
 import Testimonial from "./components/Testimonial";
 import Whychoose from "./components/Whychoose";
 import Transporter from "./components/Transporter";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Testimonial />
       <Whychoose />
       <Transporter />
+      <Contact />
     </div>
   );
 }

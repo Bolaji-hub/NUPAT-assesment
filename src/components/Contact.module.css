@@ -1,0 +1,74 @@
+.contact {
+  background-color: #091242;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 70px;
+}
+
+.contact :global(.highlighted) {
+  background-color: rgba(232, 232, 232, 0.5);
+}
+
+.reach p {
+  font-weight: 500;
+  font-size: 15px;
+  gap: 0;
+}
+
+.reach span {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+.reach h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.reach li img {
+  position: relative;
+  left: -3%;
+  margin-top: 10px;
+}
+
+.reach li {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.connect {
+  display: flex;
+  gap: 4rem;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.contact input,
+.connect textarea {
+  border: 1px solid #4e5683;
+  background-color: transparent;
+}
+.contact input::placeholder,
+.connect textarea::placeholder {
+  color: white;
+}
+
+.contact form textarea {
+  grid-column: 1 / span 2;
+}
+
+.img {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
