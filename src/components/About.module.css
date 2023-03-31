@@ -10,6 +10,16 @@
   gap: 3rem;
 }
 
+.about span {
+  color: #1c1f35;
+}
+
+.about h2 {
+  color: #1c1f35;
+  font-weight: 500;
+  font-size: 40px;
+}
+
 .about :global(.highlighted) {
   background-color: rgba(232, 232, 232, 0.5);
 }
