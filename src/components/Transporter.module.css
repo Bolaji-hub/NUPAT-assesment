@@ -6,12 +6,12 @@
   flex-direction: column;
   align-items: center;
   padding: 0;
-  margin-bottom: 20px;
-  margin-top: 55px;
+  margin-bottom: 25px;
+  margin-top: 60px;
 }
 .header h3 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: 500;
   color: #1c1f35;
 }
 
@@ -21,11 +21,29 @@
   color: #1c1f35;
 }
 
-.images {
+.transport img {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  gap: 40px;
-  left: 0;
+}
+.list {
+  display: flex;
+}
+
+.transport figcaption {
+  color: #ffffff;
+  min-height: 112px;
+  padding: 10px;
+  background-color: #1c1f35;
+}
+
+.transport h4 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.transport p {
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 15px;
 }

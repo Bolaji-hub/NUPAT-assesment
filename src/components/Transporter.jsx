@@ -12,10 +12,28 @@ export default function Transporter() {
           <span className="highlighted">The Transporters</span>
           <h3>Meet Expert Team</h3>
         </div>
-        <div className="images">
-          <img src={pilot} alt="photo" />
-          <img src={trans} alt="photo" />
-          <img src={driver} alt="photo" />
+        <div className={style.list}>
+          <figure>
+            <img src={pilot} alt="photo" />
+            <figcaption>
+              <h4>Jessica Arrow</h4>
+              <p>Designer</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src={trans} alt="photo" />
+            <figcaption>
+              <h4>Kathleen Smith</h4>
+              <p>Designer</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src={driver} alt="photo" />
+            <figcaption>
+              <h4>Rebecca Tylor</h4>
+              <p>Designer</p>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
